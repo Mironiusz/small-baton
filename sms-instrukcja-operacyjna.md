@@ -1,17 +1,3 @@
-## 1. Cel operacyjny
-
-Masz zbudować mapę literatury pokazującą:
-
-1. jakie zastosowania AI/ML w HPC występują w literaturze,
-2. jakie techniki dominują,
-3. jak badania są ewaluowane,
-4. jakie środowiska i metryki pojawiają się najczęściej,
-5. gdzie są luki badawcze.
-
-Nie próbujesz jeszcze odpowiedzieć na pytanie co działa najlepiej. Najpierw mapujesz pole.
-
----
-
 ## 2. Definicja zakresu
 
 ### Wchodzi do badania
@@ -38,14 +24,6 @@ Publikacja nie wchodzi, jeśli:
 - temat dotyczy ogólnie AI for science bez problemu systemowego HPC,
 - nie ma realnej metody AI/ML,
 - to tylko opis narzędzia, keynote, editorial lub krótki poster bez metody.
-
-### Reguła graniczna
-
-Jeżeli masz wątpliwość, zadaj sobie pytanie:
-
-**Czy AI/ML rozwiązuje problem HPC, czy tylko korzysta z HPC jako infrastruktury?**
-
-Jeśli tylko korzysta z infrastruktury, to wyklucz.
 
 ---
 
