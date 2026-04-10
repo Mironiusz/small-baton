@@ -379,47 +379,15 @@ Include decision (either: no / include by team member)
 Notes (komentarze)
 ```
 
-### Minimalna wersja, jeśli brakuje czasu
-
-```text
-ID
-DOI
-Title
-Year
-Venue
-Problem area in HPC
-AI/ML technique
-Evaluation type
-HPC environment
-Metrics
-Main result
-```
-
 ---
 
 ## 14. Jak używać LLM w tym procesie
 
-LLM może Ci pomóc, ale nie może przejąć decyzji metodologicznych.
+Można używać LLMów do dwóch rzeczy:
+1. streszczenie artykułu pod uprzednio spromptowaną full-text analizę
+2. wstępne uzupełnienie formularza ekstrakcji danych dla artykułu. Wymaga każdorazowego sprawdzenia przez człowieka.
 
-### Bezpieczne zastosowania
-
-- proponowanie dodatkowych synonimów do query,
-- normalizacja nazw technik,
-- sugerowanie tagów klasyfikacyjnych,
-- robienie draftu streszczenia paperu,
-- wykrywanie niespójności w arkuszu,
-- grupowanie podobnych paperów.
-
-### Czego nie delegować
-
-- finalnego inclusion / exclusion,
-- finalnego kodowania bez weryfikacji,
-- wyciągania wyników liczbowych bez ręcznego sprawdzenia,
-- interpretacji luk bez oparcia w danych.
-
-### Reguła praktyczna
-
-LLM może przygotować propozycję, ale człowiek musi zatwierdzić decyzję.
+Używany model oraz dokładny prompt będą pokazane w artykule.
 
 ---
 
