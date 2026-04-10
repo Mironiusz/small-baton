@@ -214,7 +214,7 @@ Dla każdego rekordu nadaj jedną z decyzji:
 
 - Include
 - Exclude
-- Uncertain
+- Uncertain = Exclude
 
 ### Decision rules
 
@@ -234,22 +234,6 @@ Daj Exclude, jeśli:
 - nie ma AI/ML,
 - nie da się uznać pracy za publikację naukową z metodą,
 - temat ewidentnie nie pasuje do scope.
-
-#### Uncertain
-
-Daj Uncertain, jeśli:
-
-- abstrakt jest zbyt ogólny,
-- nie wiadomo, czy wkład dotyczy HPC czy tylko aplikacji na HPC,
-- nie wiadomo, czy metoda faktycznie jest AI/ML.
-
-### Poziom 2 - full text
-
-Czytasz pełny tekst dla rekordów Include i Uncertain. Finalna decyzja zapada dopiero po pełnym tekście w przypadkach granicznych.
-
-### Złota zasada
-
-W przypadku wątpliwości na etapie abstraktu lepiej przepuścić rekord do full text niż odrzucić za wcześnie.
 
 ---
 
