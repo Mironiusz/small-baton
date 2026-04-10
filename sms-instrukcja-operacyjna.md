@@ -57,13 +57,6 @@ Praktyczny zestaw:
 
 Możesz przyjąć taki zestaw:
 
-
-
-
-
-
-
-
 **RQ1.** Jakie obszary zastosowań AI/ML w HPC są opisywane w literaturze?
 
 **RQ2.** Jakie algorytmy sztucznej inteligencji są stosowane w tych obszarach?
@@ -71,8 +64,6 @@ Możesz przyjąć taki zestaw:
 **RQ3.** Jakie algorytmy są obecnie uznawane za najskuteczniejsze?
 
 **RQ4.** Jakie środowiska HPC i jakie metryki są używane do oceny?
-
-
 
 ---
 
@@ -91,15 +82,6 @@ Możesz przyjąć taki zestaw:
 - Inspec
 - SpringerLink jako uzupełnienie
 - arXiv tylko wtedy, gdy jawnie dopuszczasz preprinty
-
-### Zalecenie
-
-Jeśli masz ograniczony czas, zacznij od:
-
-1. Scopus
-2. IEEE Xplore
-3. ACM DL
-4. backward i forward snowballing
 
 ---
 
