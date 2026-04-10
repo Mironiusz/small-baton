@@ -356,27 +356,27 @@ Skopiuj to do arkusza jako kolumny:
 
 ```text
 ID
-Source type
-Database origin
+Source type (typ źródła publikacji np. konferencja, review)
+Database origin (z której bazy)
 DOI
 Title
 Authors
-Year
-Venue
-Country / affiliation
-Problem area in HPC
+Year 
+Venue (miejsce publikacji typu nazwa czasopisma / nazwa konferencji)
+Country / affiliation 
+Problem area in HPC (po tym grupujemy artykuły)
 AI/ML technique
-Input data type
-Output / decision type
-Research type
-Evaluation type
-HPC environment
-Metrics
-Main contribution
-Main result
-Limitations
-Include decision
-Notes
+Input data type (tylko dla wybranych artykułów; dane na wejściu algorytmu / modelu)
+Output / decision type (tylko dla wybranych artykułów; dane na wyjściu algorytmu / modelu)
+Research type (typ badań)
+Evaluation type (sposób oceny jakości rozwiązania)
+HPC environment (dokładniejsze środowisko)
+Metrics (metryki użyte do jakości rozwiązania)
+Main contribution (podsumowanie abstraktu)
+Main result (podsumowanie efektów pracy)
+Limitations (ograniczenia)
+Include decision (either: no / include by team member)
+Notes (komentarze)
 ```
 
 ### Minimalna wersja, jeśli brakuje czasu
