@@ -233,7 +233,8 @@ Daj Exclude, jeśli:
 - HPC to tylko platforma uruchomieniowa,
 - nie ma AI/ML,
 - nie da się uznać pracy za publikację naukową z metodą,
-- temat ewidentnie nie pasuje do scope.
+- temat ewidentnie nie pasuje do scope,
+- artykuł starszy niż 2020.
 
 ---
 
@@ -243,7 +244,7 @@ Po zbudowaniu wstępnego korpusu z baz robisz dwa dodatkowe search-e.
 
 ### Backward snowballing
 
-Dla każdego włączonego papera:
+Dla każdego włączonego papera, głębokość = 1:
 
 1. przeglądasz bibliografię,
 2. zaznaczasz potencjalnie trafne pozycje,
@@ -252,7 +253,7 @@ Dla każdego włączonego papera:
 
 ### Forward snowballing
 
-Dla każdego kluczowego papera:
+Dla każdego kluczowego papera, głębokość = 1:
 
 1. sprawdzasz, kto go cytuje,
 2. wybierasz potencjalnie trafne pozycje,
@@ -264,7 +265,7 @@ Kończysz, gdy kolejna iteracja nie wnosi prawie żadnych nowych, trafnych publi
 
 ---
 
-## 11. Manual search
+## 11. Manual search (Ewentualnie)
 
 Na końcu przejrzyj ręcznie ważne venue, np.:
 
@@ -284,7 +285,7 @@ To jest ważne zwłaszcza wtedy, gdy nazewnictwo w paperach jest niestabilne.
 
 Dla każdego włączonego paperu przypisz co najmniej poniższe pola.
 
-### Oś 1 - obszar zastosowania
+### Oś 1 - obszar zastosowania, ona separuje tabele (do edycji)
 
 - scheduling
 - resource allocation
@@ -299,7 +300,7 @@ Dla każdego włączonego paperu przypisz co najmniej poniższe pola.
 - code optimization
 - storage / I/O optimization
 
-### Oś 2 - technika AI/ML
+### Oś 2 - technika AI/ML (do edycji)
 
 - classical ML
 - deep learning
@@ -318,7 +319,7 @@ Dla każdego włączonego paperu przypisz co najmniej poniższe pola.
 - experience report
 - review / secondary study
 
-### Oś 4 - typ ewaluacji
+### Oś 4 - typ ewaluacji (do edycji)
 
 - simulation
 - trace-driven evaluation
@@ -327,7 +328,7 @@ Dla każdego włączonego paperu przypisz co najmniej poniższe pola.
 - production data
 - synthetic data
 
-### Oś 5 - środowisko HPC
+### Oś 5 - środowisko HPC (do edycji)
 
 - CPU cluster
 - GPU cluster
@@ -336,7 +337,7 @@ Dla każdego włączonego paperu przypisz co najmniej poniższe pola.
 - exascale / pre-exascale
 - unspecified
 
-### Oś 6 - metryki
+### Oś 6 - metryki (do edycji)
 
 - makespan
 - throughput
