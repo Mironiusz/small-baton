@@ -57,15 +57,22 @@ Praktyczny zestaw:
 
 Możesz przyjąć taki zestaw:
 
+
+
+
+
+
+
+
 **RQ1.** Jakie obszary zastosowań AI/ML w HPC są opisywane w literaturze?
 
-**RQ2.** Jakie techniki AI/ML są stosowane w tych obszarach?
+**RQ2.** Jakie algorytmy sztucznej inteligencji są stosowane w tych obszarach?
 
-**RQ3.** Jakie typy badań i typy ewaluacji dominują?
+**RQ3.** Jakie algorytmy są obecnie uznawane za najskuteczniejsze?
 
 **RQ4.** Jakie środowiska HPC i jakie metryki są używane do oceny?
 
-**RQ5.** Jakie luki badawcze są widoczne w analizowanym korpusie?
+
 
 ---
 
