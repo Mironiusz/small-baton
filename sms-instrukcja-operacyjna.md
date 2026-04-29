@@ -2,7 +2,7 @@
 
 ### Wchodzi do badania
 
-Publikacja wchodzi, jeśli AI lub ML są użyte do rozwiązania problemu **wewnątrz HPC**, np.:
+Publikacja wchodzi, jeśli AI lub ML są użyte do rozwiązania problemu wewnątrz HPC, np.:
 
 - scheduling,
 - resource allocation,
@@ -57,13 +57,13 @@ Praktyczny zestaw:
 
 Możesz przyjąć taki zestaw:
 
-**RQ1.** Jakie obszary zastosowań AI/ML w HPC są opisywane w literaturze?
+RQ1. Jakie obszary zastosowań AI/ML w HPC są opisywane w literaturze?
 
-**RQ2.** Jakie algorytmy sztucznej inteligencji są stosowane w tych obszarach?
+RQ2. Jakie algorytmy sztucznej inteligencji są stosowane w tych obszarach?
 
-**RQ3.** Jakie algorytmy są obecnie uznawane za najskuteczniejsze?
+RQ3. Jakie algorytmy są obecnie uznawane za najskuteczniejsze?
 
-**RQ4.** Jakie środowiska HPC i jakie metryki są używane do oceny?
+RQ4. Jakie środowiska HPC i jakie metryki są używane do oceny?
 
 ---
 
