@@ -1,72 +1,42 @@
-1. Title
+# AI and Machine Learning Inside HPC: A Scoping Review
 
-AI and Machine Learning Inside HPC: A Scoping Review
+## 2. Abstract
 
-2. Structured summary
+_To be completed._
 
-This scoping review looks at how AI and ML are used inside HPC systems to solve practical problems such as scheduling, resource allocation, workload prediction, performance modeling, anomaly detection, fault prediction, resilience, energy optimization, autotuning, runtime optimization, and code optimization. We searched four major databases, screened the results, and grouped the included studies by problem area, AI/ML technique, evaluation style, HPC environment, and metrics. The goal is to show where the field is active, which methods are popular, and where the biggest gaps still are.
+## 3. Rationale
 
-3. Rationale
+AI and ML are showing up more and more often in HPC research, but the field is scattered across different communities. That makes it hard for practitioners to quickly see what is actually being studied and which technologies seem promising, and what is still missing. A scoping review fits this goal well because we want to create a broad map of the area.
 
-AI and ML are showing up more and more often in HPC research, but the field is scattered across different communities and venues. That makes it hard for practitioners to quickly see what is actually being studied, what seems promising, and what is still missing. A scoping review fits this goal well because we want a broad map of the area, not a narrow comparison of one specific technique.
+## 4. Objectives
 
-4. Objectives
+This review answers three questions:
 
-This review answers four questions: (RQ1) What AI/ML application areas in HPC are described in the literature? (RQ2) Which AI/ML algorithms are used in these areas? (RQ3) Which algorithms are currently reported as the most effective? (RQ4) What HPC environments and evaluation metrics are used to assess these approaches?
+- **RQ1.** What problems in the HPC ecosystem need a machine learning solution?
+- **RQ2.** What artificial intelligence and machine learning methods are used to solve these problems?
+- **RQ3.** Which machine learning methods are used most often?
 
-5. Protocol and registration
+## 5. Protocol and registration
 
-Before starting the review, we prepared a simple protocol covering the study scope, research questions, databases, search strings, eligibility rules, screening process, extraction form, and decision log. The protocol was used internally and was not formally registered.
+Before running the review, we prepared an internal protocol that defined the scope, research questions, search sources, inclusion and exclusion rules, and the data extraction fields. The protocol works as a lightweight operating manual for the review: it keeps the search, screening, and charting process consistent, even when papers use different terminology or come from different research communities. The protocol was not formally registered in an external repository.
 
-6. Eligibility criteria
+## 6. Eligibility criteria
 
-We included papers where AI or ML was used to solve a problem inside HPC, such as scheduling, resource allocation, workload prediction, performance prediction or modeling, anomaly detection, fault prediction, resilience, energy optimization, autotuning, runtime optimization, or HPC-focused code optimization. We excluded papers where HPC was only used to train AI models, where the topic was general AI for science without an HPC systems problem, where no real AI/ML method was present, or where the publication was only a tool description, keynote, editorial, or short poster without a clear method. We also excluded papers published before 2020.
+We will include papers where AI or ML is used to solve a problem inside HPC, such as autotuning, workload prediction, anomaly detection, scheduling, or performance modeling. We will exclude papers where HPC is only used to train AI models, papers about general AI for science without an HPC systems problem, papers without a real AI/ML method, and publications such as tool descriptions, keynotes, editorials, or short posters without a clear method. We will also exclude papers published before 2020 and papers not written in English.
 
-7. Information sources
+## 7. Information sources
 
-The core search was run in Scopus, Web of Science Core Collection, IEEE Xplore, and ACM Digital Library. We also allowed follow-up search through backward snowballing, forward snowballing, and manual checking of selected venues when needed.
+The core database search will be run in Scopus, Web of Science Core Collection, IEEE Xplore, and ACM Digital Library. We will also use manual search to identify important papers and to build a representative test set for checking whether the search strategy captures relevant work. The date of each search will be recorded and reported in the final review.
 
-8. Search
+## 8. Search
 
+We will perform both database search and manual search.
 
+The search will use three term groups: AI/ML, HPC, and system-level HPC problems. The main query will be tested on a small set of known relevant papers and then adapted to each database syntax. Searches will target title, abstract, and keywords where supported. The search will be limited to English-language papers published from 2020 onward.
 
-9. Selection of sources of evidence
+Planned base query:
 
-
-10. Data charting process
-
-
-11. Data items
-
-
-13. Synthesis of results
-
-
-14. Selection of sources of evidence - results
-
-
-
-15. Characteristics of sources of evidence
-
-
-
-17. Results of individual sources of evidence
-
-
-
-18. Synthesis of results - results section
-
-
-
-19. Summary of evidence
-
-
-
-20. Limitations
-
-
-21. Conclusions
-
-
-22. Funding
-
+```text
+("artificial intelligence" OR "machine learning" OR "deep learning" OR "neural network*" OR "reinforcement learning" OR "graph neural network*" OR "predictive model*")
+AND
+("high performance computing" OR HPC OR supercomput* OR "parallel computing" OR "cluster computing" OR exascale OR petascale OR "heterogeneous computing")

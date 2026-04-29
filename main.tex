@@ -1,0 +1,117 @@
+\documentclass[journal]{IEEEtran}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{url}
+\usepackage{hyperref}
+
+\title{AI and Machine Learning Inside HPC: A Scoping Review}
+
+\author{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+To be completed.
+\end{abstract}
+
+\begin{IEEEkeywords}
+High performance computing, machine learning, artificial intelligence, scoping review, software engineering.
+\end{IEEEkeywords}
+
+\section{Rationale}
+
+AI and ML are showing up more and more often in HPC research, but the field is scattered across different communities. That makes it hard for practitioners to quickly see what is actually being studied and which technologies seem promising, and what is still missing. A scoping review fits this goal well because we want to create a broad map of the area.
+
+\section{Objectives}
+
+This review answers three questions:
+
+\begin{itemize}
+    \item \textbf{RQ1.} What problems in the HPC ecosystem need a machine learning solution?
+    \item \textbf{RQ2.} What artificial intelligence and machine learning methods are used to solve these problems?
+    \item \textbf{RQ3.} Which machine learning methods are used most often?
+\end{itemize}
+
+\section{Protocol and Registration}
+
+Before running the review, we prepared an internal protocol that defined the scope, research questions, search sources, inclusion and exclusion rules, and the data extraction fields. The protocol works as a lightweight operating manual for the review: it keeps the search, screening, and charting process consistent, even when papers use different terminology or come from different research communities. The protocol was not formally registered in an external repository.
+
+\section{Eligibility Criteria}
+
+We will include papers where AI or ML is used to solve a problem inside HPC, such as autotuning, workload prediction, anomaly detection, scheduling, or performance modeling. We will exclude papers where HPC is only used to train AI models, papers about general AI for science without an HPC systems problem, papers without a real AI/ML method, and publications such as tool descriptions, keynotes, editorials, or short posters without a clear method. We will also exclude papers published before 2020 and papers not written in English.
+
+\section{Information Sources}
+
+The core database search will be run in Scopus, Web of Science Core Collection, IEEE Xplore, and ACM Digital Library. We will also use manual search to identify important papers and to build a representative test set for checking whether the search strategy captures relevant work. The date of each search will be recorded and reported in the final review.
+
+\section{Search}
+
+We will perform both database search and manual search.
+
+The search will use three term groups: AI/ML, HPC, and system-level HPC problems. The main query will be tested on a small set of known relevant papers and then adapted to each database syntax. Searches will target title, abstract, and keywords where supported. The search will be limited to English-language papers published from 2020 onward.
+
+Planned base query:
+
+\begin{verbatim}
+("artificial intelligence" OR "machine learning"
+OR "deep learning" OR "neural network*"
+OR "reinforcement learning" OR "graph neural network*"
+OR "predictive model*")
+AND
+("high performance computing" OR HPC OR supercomput*
+OR "parallel computing" OR "cluster computing"
+OR exascale OR petascale OR "heterogeneous computing")
+\end{verbatim}
+
+\section{Selection of Sources of Evidence}
+
+To be completed.
+
+\section{Data Charting Process}
+
+For each included paper, we will extract the information needed to understand what problem the authors tried to solve, what AI/ML technique they used, what data went into the model, and what decision or prediction came out. We will also record how the solution was tested, in what HPC setting, and with which metrics. The goal is not just to summarize papers, but to make them comparable from a software engineering point of view: what was built, how it was evaluated, and whether the evidence is useful for practitioners. LLM tools may support first-pass tagging, but every extracted item will be checked manually.
+
+\section{Data Items}
+
+To be completed.
+
+\section{Synthesis of Results}
+
+To be completed.
+
+\section{Selection of Sources of Evidence: Results}
+
+To be reported after database search, deduplication, screening, and eligibility assessment.
+
+\section{Characteristics of Sources of Evidence}
+
+To be reported after data charting.
+
+\section{Results of Individual Sources of Evidence}
+
+To be reported after data charting.
+
+\section{Synthesis of Results: Results Section}
+
+To be reported after synthesis.
+
+\section{Summary of Evidence}
+
+To be reported after synthesis of the included papers.
+
+\section{Limitations}
+
+To be completed.
+
+\section{Conclusions}
+
+To be written after the evidence synthesis.
+
+\section{Funding}
+
+There is no funding provided for this project.
+
+\end{document}
